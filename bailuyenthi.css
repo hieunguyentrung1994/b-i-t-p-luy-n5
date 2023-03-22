@@ -1,0 +1,119 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.CONTAINER{
+    background-color: dimgrey;
+    border: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.CHILD-1 ,.CHILD-2 ,.CHILD-3 ,.CHILD-4{
+    color: white;
+    text-decoration: overline;
+   
+}
+.CHILD-1{
+    background-color: dimgrey;
+    flex-grow: 6;
+}
+.CHILD-2{
+    background-color: dimgrey;
+    flex-grow: 1;
+}
+.CHILD-3{
+    background-color: dimgrey;
+    flex-grow: 1;
+}
+.CHILD-4{
+    background-color: dimgrey;
+    flex-grow: 1;
+}
+.container1{
+    background-color:aquamarine;
+    border: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+}
+.back{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.back .back1 {
+    margin: 0 auto;
+    width: 800px;
+}
+.back1 img {
+    width: 220px;
+    text-align: center;
+}
+.back2{
+    text-align: center;
+}
+.back3{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.back3 .back4{
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.back5{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.container2{
+    background-color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+margin:auto;
+}
+.back6{
+    justify-content:left
+}
+.center{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container4{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.text10{
+    background-color: darkslategrey;
+    color: white;
+    flex-grow: 2;
+    text-align: center;
+    font-size: 17px;
+}
+.back6 input{
+    border: none ;
+    outline: none;
+}
+
